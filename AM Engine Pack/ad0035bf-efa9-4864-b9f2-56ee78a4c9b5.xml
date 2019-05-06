@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DesignerParts>
+  <DesignerPart name="SUB sabre" category="Sub Assemblies" description="" order="0" showInDesigner="true">
+    <Assembly xmlVersion="8">
+      <Parts>
+        <Part id="1641" partType="JetEngine1" position="-0.0002331734,0.01567459,1.357003" rotation="89.92339,0.06823613,0" name="SABRE [J]" activationStage="0" stageOverride="true" materials="0,0,0,0,0" mirrored="true" shroudTexture="Default" fanStyle="SCurve" nozzleStyle="Civilian" inletConeStyle="None">
+          <Drag drag="2.136453,0,0,10.79339,11.07135,0" area="2.872843,0,0,14.88655,14.92692,0" />
+          <Config buoyancyUserScale="2" fuelLine="true" heatShield="3000" massScale="0.75" maxTemperature="3000" partScale="0.65,0.65,0.65" />
+          <Fuselage bottomScale="1.290269,1.290269" offset="0,5.395828,0" topScale="1.5,1.5" />
+          <JetEngine bypassRatio="0.7" compressionRatio="30" hasAfterburner="true" mass="233.497711" price="77109688" shroudCurvature="0.599999964" size="3" />
+          <FuelSource />
+          <Inlet />
+          <InputController inputId="Thrust Reverse" />
+        </Part>
+        <Part id="1614" partType="Fuselage1" position="0.0006251335,-0.9042664,4.526437" rotation="270.0593,180.0682,0" name="Hydrolox Feed Tank" materials="0,0,0,0,0" mirrored="true" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" maxTemperature="3000" />
+          <Fuselage autoResize="false" bottomScale="0.05,0.05522945" cornerRadiuses="0,0,0,0,0,0,0,0" fuelPercentage="0" offset="4.81843E-07,0.3000015,-0.0009303093" topScale="0.05,0.06483341" />
+          <FuelTank capacity="3.95786238" fuelType="LOX/LH2" />
+        </Part>
+        <Part id="1613" partType="Strut1" position="-0.001263142,0.4498215,4.237758" rotation="0.0771982,269.991,180" materials="0,0,0,0,0">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config fuelLine="true" inertiaTensorUserScale="50" partCollisionHandling="Never" />
+          <Fuselage bottomScale="0.7269271,0.1493268" cornerRadiuses="1,1,1,1,1,1,1,1" deadWeight="500" offset="-0.2887609,1.395068,-1.713511E-06" topScale="0.1493268,0.1493268" />
+        </Part>
+        <Part id="1615" partType="Fuselage1" position="-9.393692E-05,0.01567459,0.5054989" rotation="270.0593,180.0682,0" name="Fuel Manifold" materials="4,4,4,4,4" mirrored="true" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" maxTemperature="3000" />
+          <Fuselage autoResize="false" bottomScale="0.75,0.75" fuelPercentage="0" offset="-7.674019E-14,0.09999987,-8.866145E-07" topScale="0.75,0.75" />
+          <FuelTank capacity="194.3858" fuelType="LOX/LH2" />
+        </Part>
+        <Part id="1616" partType="FuelAdapter1" position="-0.001024723,0.7271042,0.3612881" rotation="89.92339,0.06818146,0" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1617" partType="RocketEngine1" position="-0.000723362,0.7712479,-1.986316" rotation="74.99982,0.2792054,0.2984059" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1618" partType="RocketEngine1" position="0.0003752708,0.01567841,-2.496927" rotation="270.0593,180.0682,0" name="Thrust Chamber [H]" activationGroup="12" activationStage="2" stageOverride="true" materials="4,4,4,4,4" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" partScale="0.3,0.3,0.3" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine engineSubTypeId="Staged1" mass="4.305205" nozzleSize="2.5" nozzleThroatSize="0.31" nozzleTypeId="Aerospike" price="396839" size="0.65" />
+        </Part>
+        <Part id="1619" partType="FuelAdapter1" position="0.3570857,0.6320076,0.3605661" rotation="60.07729,269.9911,270.0001" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1620" partType="RocketEngine1" position="0.3824553,0.6754532,-1.958921" rotation="56.84211,298.2336,294.2128" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1621" partType="FuelAdapter1" position="0.6155448,0.3722153,0.3613853" rotation="30.07724,269.991,270.0001" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1622" partType="RocketEngine1" position="0.6541152,0.3943367,-1.986213" rotation="28.95288,287.1957,278.5247" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1623" partType="FuelAdapter1" position="0.6165137,-0.3392181,0.3613844" rotation="330.0772,269.991,270" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1624" partType="RocketEngine1" position="0.6551337,-0.3612328,-1.986204" rotation="331.1947,287.1706,261.5272" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1625" partType="FuelAdapter1" position="0.0008769035,-0.6957626,0.3612862" rotation="270.0593,180.0682,0" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1626" partType="RocketEngine1" position="0.001306057,-0.7398911,-1.986307" rotation="285.0002,359.7027,180.2984" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1627" partType="FuelAdapter1" position="-0.6157231,-0.3408699,0.3611908" rotation="329.9228,89.991,90.00005" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1628" partType="RocketEngine1" position="-0.6535344,-0.3629837,-1.986414" rotation="331.0471,72.78628,98.52489" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1629" partType="FuelAdapter1" position="-0.6166749,0.3705673,0.3611927" rotation="29.92285,89.991,89.99998" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1630" partType="RocketEngine1" position="-0.6545568,0.3925858,-1.98641" rotation="28.80534,72.81152,81.52724" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1631" partType="FuelAdapter1" position="0.7122588,0.01452255,0.3606253" rotation="0.07722044,269.991,270" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1632" partType="RocketEngine1" position="0.7627578,0.01459503,-1.95886" rotation="0.07462154,284.991,270.02" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1633" partType="FuelAdapter1" position="0.3550868,-0.6018143,0.360569" rotation="300.0771,269.9911,269.9999" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1634" partType="RocketEngine1" position="0.3805861,-0.6451797,-1.958917" rotation="303.2941,298.1222,245.9203" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1635" partType="FuelAdapter1" position="-0.357245,-0.6006622,0.3604574" rotation="299.9228,89.991,89.99997" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1636" partType="RocketEngine1" position="-0.3818746,-0.6441002,-1.959032" rotation="303.1578,61.74825,114.2129" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1637" partType="FuelAdapter1" position="-0.7124181,0.01682281,0.3604002" rotation="359.9228,89.99097,90" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1638" partType="RocketEngine1" position="-0.762177,0.01675415,-1.959093" rotation="359.9254,74.99098,90.02" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1639" partType="FuelAdapter1" position="-0.3552442,0.6331558,0.3604555" rotation="59.92281,89.99094,89.99995" name="Fuel Injector" materials="4,4,4,4,4" mirrored="true">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" fuelLine="true" heatShield="3000" includeInDrag="false" massScale="0.05" maxTemperature="3000" />
+        </Part>
+        <Part id="1640" partType="RocketEngine1" position="-0.3800149,0.6765289,-1.959037" rotation="56.70591,61.85976,65.92027" name="Ramjet Burner [R]" activationGroup="2" activationStage="2" stageOverride="true" materials="0,0,0,0,0" mirrored="true" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="3000" includeInDrag="false" massScale="0.02" maxTemperature="3000" partScale="2.05,2.05,2.05" />
+          <FuelSource fuelTankPartIds="1614,1615" fuelType="LOX/LH2" totalCapacity="198.343658" />
+          <RocketEngine chamberPressure="100" engineSubTypeId="Staged1" mass="3.258899" nozzleSize="2.5" nozzleThroatSize="0.25" nozzleTypeId="Aerospike" price="429367" size="0.08" />
+        </Part>
+        <Part id="1642" partType="Inlet1" position="-0.0009713173,0.01554108,5.256612" rotation="89.92339,0.06818146,0" materials="0,0,0,0,0" mirrored="true" style="Inlet-2" texture="Default">
+          <Drag drag="0.01689908,0,0,1.738045,1.440225,0" area="0.2611676,0,0,2.350508,1.911377,0" />
+          <Config fuelLine="true" heatShield="3000" massScale="0.05" maxTemperature="3000" />
+          <Fuselage bottomScale="1,1" flattenNormals="Both" offset="0,0.4,0" topScale="1,1" />
+          <Inlet />
+        </Part>
+        <Part id="1643" partType="Strut1" position="-0.0009541512,0.01566696,5.954547" rotation="89.92339,0.06818146,0" materials="0,0,0,0,0" mirrored="true" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config buoyancyUserScale="2" dragScale="0" heatShield="1000" includeInDrag="false" massScale="0.05" maxTemperature="3000" partCollisionHandling="Never" partCollisionResponse="None" />
+          <Fuselage autoResize="false" bottomScale="0.5,0.5" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-1.065818E-14,1.000001,0" topScale="0,0" />
+        </Part>
+      </Parts>
+      <Connections>
+        <Connection partA="1641" partB="1614" attachPointsA="3" attachPointsB="0" symmetryId="bd157362-92e9-4ce2-b2d7-bbd622603a97" />
+        <Connection partA="1642" partB="1641" attachPointsA="0" attachPointsB="2" symmetryId="014a668b-2e85-4dcb-9260-bdf3b35118e7" />
+        <Connection partA="1643" partB="1641" attachPointsA="1" attachPointsB="1" symmetryId="f0f6091c-bba8-46e3-87bd-b06bfb7bbc89" />
+        <Connection partA="1614" partB="1613" attachPointsA="3" attachPointsB="2" symmetryId="c938b3cc-f7b5-457d-89a0-2560a21a47dd" />
+        <Connection partA="1615" partB="1614" attachPointsA="2,4" attachPointsB="1,5" symmetryId="952a7d05-7b23-4df8-8768-e89f77ed12ce" />
+        <Connection partA="1616" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1618" partB="1615" attachPointsA="0" attachPointsB="1" symmetryId="eca0db1f-92ff-4beb-b0ca-4d60903c52f5" />
+        <Connection partA="1619" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1621" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1623" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1625" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1627" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1629" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="572ae41e-b683-4b67-9d49-0121c416b0d7" />
+        <Connection partA="1631" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1633" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1635" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1637" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1639" partB="1615" attachPointsA="0" attachPointsB="0" symmetryId="c4ccd5b6-4a58-4039-afd8-d102b26e0d62" />
+        <Connection partA="1617" partB="1616" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1620" partB="1619" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+        <Connection partA="1622" partB="1621" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1624" partB="1623" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1626" partB="1625" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1628" partB="1627" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1630" partB="1629" attachPointsA="0" attachPointsB="1" symmetryId="ac1d8a4b-34d7-416e-9351-0633058c3f4f" />
+        <Connection partA="1632" partB="1631" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+        <Connection partA="1634" partB="1633" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+        <Connection partA="1636" partB="1635" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+        <Connection partA="1638" partB="1637" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+        <Connection partA="1640" partB="1639" attachPointsA="0" attachPointsB="1" symmetryId="9b0c2e60-6662-4d23-aac3-8a3dbad65914" />
+      </Connections>
+      <Collisions />
+      <Bodies />
+    </Assembly>
+  </DesignerPart>
+</DesignerParts>

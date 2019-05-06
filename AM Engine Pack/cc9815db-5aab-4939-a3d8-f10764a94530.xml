@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DesignerParts>
+  <DesignerPart name="Sub RD 858" category="Sub Assemblies" description="" order="0" showInDesigner="true">
+    <Assembly xmlVersion="8">
+      <Parts>
+        <Part id="13" partType="Fuselage1" position="0,0.4658055,2.384186E-07" rotation="2.390566E-05,-1.001791E-05,-2.904121E-12" materials="0,0,0,0,0" symmetryId="bea44b40-49f0-42fb-9fa3-a1c31ece60a4" texture="Default">
+          <Drag drag="0.005072892,0.005072892,0,0,0.005081304,0.005064479" area="0.006435758,0.006435758,0,0,0.006435758,0.006435758" />
+          <Config partScale="0.35,0.35,0.35" symmetryId="552a8c64-30d1-41fa-8c44-01eb879659d5" />
+          <Fuselage bottomScale="0.384596,0.384596" offset="-1.036069E-14,0.05009008,-1.183786E-07" topScale="0.384596,0.384596" symmetryId="c98db923-49ab-43b7-acf7-2596ff2b9495" />
+          <FuelTank capacity="25.6037617" fuel="25.6037617" symmetryId="c740cc3e-a762-448c-925a-b08968535aff" />
+        </Part>
+        <Part id="12" partType="Fuselage1" position="0,0.4035306,2.384186E-07" rotation="2.390566E-05,-1.001791E-05,-2.904121E-12" materials="0,0,0,0,0" symmetryId="8ebedc16-9c50-43f8-8134-b3fa78feff51" texture="Default">
+          <Drag drag="0.008042594,0.000445876,0,0,0.006418932,0.005973056" area="0.01287151,0.004290505,0,0,0.01072626,0.00858101" />
+          <Config partScale="0.35,0.35,0.35" symmetryId="ba4d07ff-118f-46ac-b315-ffd46a24f33b" />
+          <Fuselage bottomScale="0.3353642,0.3353642" offset="2.711157E-14,0.127835,3.101161E-07" topScale="0.3353642,0.3353642" symmetryId="7aeda8ff-ef98-4cae-8e03-fdee3dcf75cd" />
+          <FuelTank capacity="49.6850471" fuel="49.6850471" symmetryId="f90230f2-712b-4bec-884e-dfcb1283202b" />
+        </Part>
+        <Part id="11" partType="Fuselage1" position="0,0.3410583,2.384186E-07" rotation="2.390566E-05,-1.001791E-05,-2.904121E-12" materials="0,0,0,0,0" symmetryId="5b3125a5-8a6a-475e-9756-36884c7f1f33" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config partScale="0.35,0.35,0.35" symmetryId="b6666e4f-0e0b-4832-a7ff-17a13207aec8" />
+          <Fuselage bottomScale="0.3662432,0.3662432" offset="-5.698918E-15,0.05065738,-6.529609E-08" topScale="0.3662432,0.3662432" symmetryId="cea704f2-aa6d-4bed-b825-f9794fdf4ee1" />
+          <FuelTank capacity="23.4814243" fuel="23.4814243" symmetryId="41d5daa3-e4b5-4835-98af-faba557dce80" />
+        </Part>
+        <Part id="4" partType="Fuselage1" position="0,0.3684826,2.384186E-07" rotation="2.390566E-05,-1.001791E-05,-2.904121E-12" materials="0,0,0,0,0" symmetryId="cc691a62-2788-48c9-8b90-ebbcff5d08aa" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config symmetryId="bf542ace-c3a5-48a8-8a87-4f1d51a2b4ce" />
+          <Fuselage bottomScale="0.07067371,0.07067371" offset="-2.375443E-15,0.05193195,-2.72827E-08" topScale="0.03561348,0.03561348" symmetryId="63b35739-3c15-4f1f-a67d-62ca6b0b688d" />
+          <FuelTank capacity="0.52523303" fuel="0.52523303" symmetryId="ac272d8a-3cd5-433c-9566-e6f28235eaba" />
+        </Part>
+        <Part id="1" partType="Fuselage1" position="0,0.07015419,-2.384186E-07" rotation="2.390566E-05,-1.001791E-05,-2.904121E-12" materials="0,0,0,0,0" symmetryId="381ad636-d9be-4d3a-82e8-9b39436bebcd" texture="Default">
+          <Drag drag="0.01133198,0.002010648,0,0.05542677,0.002010648,0.0112815" area="0.01501677,0.002145252,0,0.05542677,0.002145252,0.01501677" />
+          <Config symmetryId="ac47083c-243d-4101-9841-d19b5caafe3f" />
+          <Fuselage bottomScale="0.1335269,0.1335269" offset="3.176374E-21,0.2463875,9.947594E-14" topScale="0,0" symmetryId="b98950e2-19c6-47fd-bfd1-8e389fe61ce5" />
+          <FuelTank capacity="5.060314" fuel="5.060314" symmetryId="134f3154-41f6-4699-831e-0863c91590d1" />
+        </Part>
+        <Part id="2" partType="RocketEngine1" position="0,0.4617543,2.384186E-07" rotation="3.756604E-05,-1.502687E-05,-5.740413E-12" activationStage="0" materials="0,0,0,0,0" symmetryId="2c98be1c-ba8a-499e-b773-77b1d620b639" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0.249497,0.2238381,0,0.07011954,0.2432632,0.2759214" area="0.3432404,0.3132067,0,0.2181101,0.3368046,0.3797098" />
+          <Config massScale="0.1" partScale="0.09,0.09,0.09" symmetryId="3f0d9ae8-fa2b-4a2c-8a4d-cf258f59d1f9" />
+          <FuelSource fuelTankPartIds="13,12,11,4,1" totalCapacity="104.355774" totalFuel="104.355774" symmetryId="271b0383-a021-4fd1-894e-5f09ffb4e02c" />
+          <RocketEngine chamberPressure="9" engineSubTypeId="GasGenerator1" gimbalRange="0" mass="58.4601364" nozzleSize="1.45999992" nozzleThroatSize="0.0126" price="119300" size="4" symmetryId="094b6913-f8a8-4140-8f13-0e23ea554d67" />
+        </Part>
+        <Part id="7" partType="Inlet1" position="0,-0.1752028,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="02a411b2-d1e2-4879-a88d-8c182d71adf1" texture="Default">
+          <Drag drag="0,0,0,0.02630451,0,0" area="0,0,0,0.03130586,0,0" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="c562b265-99fc-45dd-9b39-8a4d9f99e1a9" />
+          <Fuselage bottomScale="0.8709755,0.8709755" offset="0,0.06267199,0" topScale="0.7108926,0.7108926" symmetryId="4c5fd5ae-9a1c-4871-a042-244e95552236" />
+          <Inlet symmetryId="3c6e14ef-c108-43d2-bc2a-5fb1cab7c8bc" />
+        </Part>
+        <Part id="8" partType="Inlet1" position="0,-0.2181444,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="d99338ce-3640-47c3-8f38-ba3547b102b0" texture="Default">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="15d19bae-2b2b-4e96-82b6-abfe19f25fdf" />
+          <Fuselage bottomScale="0.9134823,0.9134823" offset="0,0.06267199,0" topScale="0.9134823,0.9134823" symmetryId="4813726a-5ff7-4bf6-ad3d-d95eceac6f7c" />
+          <Inlet symmetryId="ccfc149b-f04e-4f1d-b08b-c703156aad4f" />
+        </Part>
+        <Part id="5" partType="Inlet1" position="0,-0.4118037,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="80f9b5e6-6f0d-4a9c-9745-80aa43ef7465" texture="Default">
+          <Drag drag="0.0002355571,0.009018472,0,0.0187634,0.009018473,0.0002355571" area="0.004290505,0.01716202,0,0.03079265,0.01716202,0.004290505" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="51108075-d85a-4690-9941-429f8f66ea75" />
+          <Fuselage bottomScale="1.314251,1.314251" offset="0,0.08363605,0" topScale="1.200834,1.200834" symmetryId="43ac5963-1497-4872-8693-c60ce6f75da3" />
+          <Inlet symmetryId="1ef3f1fd-82b7-45c9-898f-63476502f3e2" />
+        </Part>
+        <Part id="6" partType="Inlet1" position="0,-0.4603624,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="293b7b5d-5554-475b-9ae9-101e92ba52f8" texture="Default">
+          <Drag drag="0,0.01325009,0,0.01488311,0.01325009,0" area="0,0.01930727,0,0.01488311,0.01930727,0" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="1961ee77-5aa2-4f98-83ab-a731fcb87ab3" />
+          <Fuselage bottomScale="1.329744,1.329744" offset="0,0.08363605,0" topScale="1.329744,1.329744" symmetryId="f9be4a61-2bdd-4576-9a75-d4f60486b16a" />
+          <Inlet symmetryId="4ea7e0dd-659c-4b95-8583-9c5b0e2e05f0" />
+        </Part>
+        <Part id="9" partType="Inlet1" position="0,-0.9333715,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="31cbe8a6-de3a-4051-87d0-1b507a535de2" texture="Default">
+          <Drag drag="0.004669079,0.01788552,0,0.01703863,0.01788552,0.002843511" area="0.01072626,0.02788828,0,0.0333587,0.02788828,0.00858101" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="0532541f-2444-4ef2-befb-352310b42f2e" />
+          <Fuselage bottomScale="1.737671,1.737671" offset="0,0.08363605,0" topScale="1.810994,1.810994" symmetryId="87021166-c764-4be7-8175-c46c7fd9bfa8" />
+          <Inlet symmetryId="e082fe4d-f655-4188-8f65-6e0ab7cb0f61" />
+        </Part>
+        <Part id="10" partType="Inlet1" position="0,-0.9668288,-2.384186E-07" rotation="1.366038E-05,-5.008956E-06,-1.004225E-12" materials="0,0,0,0,0" symmetryId="9d409c96-7e40-4fdc-8ff5-4b248ce8a5c2" texture="Default">
+          <Drag drag="0.01878568,0.01878568,0,0.0189888,0.01878568,0.0187941" area="0.02788828,0.02788828,0,0.0189888,0.02788828,0.02788828" />
+          <Config partScale="0.2,0.2,0.2" symmetryId="f41b75d6-1915-49a8-88a0-a425ea22122c" />
+          <Fuselage bottomScale="1.751945,1.751945" offset="0,0.08363605,0" topScale="1.751945,1.751945" symmetryId="a6aff856-a616-4fea-afaa-e2baa5e8bd08" />
+          <Inlet symmetryId="839f8e15-cc07-46fd-8276-67bbad27f3fc" />
+        </Part>
+        <Part id="14" partType="Strut1" position="-0.2869052,-0.1997457,0.1743138" rotation="318.5309,89.9977,350.03" materials="0,0,0,0,0" symmetryId="55248ac3-2517-4da2-947a-8624f38641b6">
+          <Drag drag="0.01212278,0.00800053,0,0.002493597,0.007714497,0.004324156" area="0.01287151,0.00858101,0,0.004362287,0.01287151,0.006435758" />
+          <Config symmetryId="5ce25e54-5bcb-4534-9dde-7069bf4f6a78" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.578478E-07,0.3027433,-1.117539E-07" topScale="0.01367489,0.01367489" symmetryId="437b86a5-ae30-4140-8c48-bf8b0ae23229" />
+        </Part>
+        <Part id="18" partType="Strut1" position="-0.3490546,-0.2074919,0.01087689" rotation="328.1513,93.53771,202.8515" materials="0,0,0,0,0" symmetryId="3d5686be-f439-4466-b14a-f8eac2eee2ad">
+          <Drag drag="0.01150024,0.01248453,0,0.002543912,0.005552419,0" area="0.01501677,0.01716202,0,0.005388709,0.006435758,0" />
+          <Config symmetryId="7270c83e-0e6d-4310-babc-c5ac8b97b15e" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.513405E-07,0.2870028,-1.37835E-07" topScale="0.01367489,0.01367489" symmetryId="d53eed06-c07b-47a0-8bb9-87c694398aec" />
+        </Part>
+        <Part id="22" partType="Strut1" position="-0.5254937,0.1399136,0.1400387" rotation="339.7641,104.7923,359.8624" materials="0,0,0,0,0" symmetryId="c94b4823-edc2-400d-98c3-678d5304b71e">
+          <Drag drag="0.005973056,0.006099247,0,0.001330825,0.001817155,0.0005384163" area="0.006435758,0.006435758,0,0.003079261,0.004290505,0.002145252" />
+          <Config symmetryId="2efc4a2a-ec7f-44ae-83d9-80aa725c5266" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.388673E-07,0.1431457,-9.499246E-08" topScale="0.01367489,0.01367489" symmetryId="07f63414-20e3-4c88-be87-636865f3bdef" />
+        </Part>
+        <Part id="26" partType="Strut1" position="-0.3372369,0.2652764,0.09020066" rotation="89.73607,76.05897,331.3135" materials="0,0,0,0,0" symmetryId="605a8d84-41a5-428f-9b0a-b06fca55643c">
+          <Drag drag="0.01184516,0.01314914,0,0.002909198,0.002557478,0" area="0.01501677,0.01501677,0,0.003464169,0.004290505,0" />
+          <Config symmetryId="54535580-7af0-4315-b7b8-03dbe6b4e6c1" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.332944E-08,0.2531537,4.768334E-07" topScale="0.01367489,0.01367489" symmetryId="d347ca9d-cbab-427a-80ee-471605372bf2" />
+        </Part>
+        <Part id="31" partType="Strut1" position="-0.1815538,0.2657785,-0.09308124" rotation="359.7365,64.45512,270.0541" materials="0,0,0,0,0" symmetryId="816778a9-9634-454d-a7d6-39da67322f46">
+          <Drag drag="0,0.001674138,0,0,0.007832275,0" area="0,0.004290505,0,0,0.01072626,0" />
+          <Config symmetryId="e4a74059-f157-4fa5-9dc0-03ba8c7956d5" />
+          <Fuselage bottomScale="0.01464926,0.01464926" offset="4.227016E-07,0.2109606,6.370213E-07" topScale="0.01047181,0.01047181" symmetryId="4d715528-bf21-410e-afb7-d65b6097c764" />
+        </Part>
+        <Part id="15" partType="Strut1" position="0.1743197,-0.1997466,0.2868955" rotation="318.5309,179.9977,350.03" materials="0,0,0,0,0" symmetryId="34f6d7a7-088c-45e2-9e58-f0070f07ec51">
+          <Drag drag="0.007487352,0.004282092,0,0.002494604,0.008034181,0.01212278" area="0.01287151,0.006435758,0,0.004362287,0.00858101,0.01287151" />
+          <Config symmetryId="c25b25d1-95d4-4f45-9b9e-4eb3463b17d2" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.578478E-07,0.3027433,-1.117539E-07" topScale="0.01367489,0.01367489" symmetryId="84ce2751-0235-4832-a9f7-6ce2cb4bcef2" />
+        </Part>
+        <Part id="19" partType="Strut1" position="0.01087713,-0.2074919,0.3490438" rotation="328.1513,183.5378,202.8515" materials="0,0,0,0,0" symmetryId="d2fcba95-b9c0-4d64-806d-24fc88bee13f">
+          <Drag drag="0.005544006,0,0,0.003221651,0.01244246,0.01169373" area="0.006435758,0,0,0.006543433,0.01716202,0.01501677" />
+          <Config symmetryId="fc80aaa2-c772-47b4-bc37-d341af254fbb" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.513405E-07,0.2870028,-1.37835E-07" topScale="0.01367489,0.01367489" symmetryId="b354a8f7-0e13-482a-92b0-3aea81e449de" />
+        </Part>
+        <Part id="23" partType="Strut1" position="0.1400431,0.1399136,0.5254765" rotation="339.7641,194.7923,359.8624" materials="0,0,0,0,0" symmetryId="b9686fc2-81d2-403c-9435-7c8889b4f08e">
+          <Drag drag="0.002448112,0.0005384163,0,0.001330824,0.006082422,0.00598147" area="0.006435758,0.002145252,0,0.003079261,0.006435758,0.006435758" />
+          <Config symmetryId="51438d8f-8b00-4d02-90bc-ee3f33a01d41" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.388673E-07,0.1431457,-9.499246E-08" topScale="0.01367489,0.01367489" symmetryId="b94c57b6-3577-4d17-934d-9d4acf7e89e1" />
+        </Part>
+        <Part id="27" partType="Strut1" position="0.090204,0.2652764,0.3372259" rotation="89.73906,166.0554,331.3103" materials="0,0,0,0,0" symmetryId="84eed330-8374-471a-aaf8-51811faa2c72">
+          <Drag drag="0.0009758796,0,0,0.002909701,0.01314914,0.01186198" area="0.004290505,0,0,0.003464169,0.01501677,0.01501677" />
+          <Config symmetryId="83ad57a2-7034-416e-9266-6fbf95d3b591" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.332944E-08,0.2531537,4.768334E-07" topScale="0.01367489,0.01367489" symmetryId="dc7f7315-1eef-4efa-b316-9764e923ed00" />
+        </Part>
+        <Part id="32" partType="Strut1" position="-0.09308445,0.2657785,0.1815474" rotation="359.7365,154.4551,270.0541" materials="0,0,0,0,0" symmetryId="e2be1401-5ef4-4f1a-b532-0b68df4bb6e3">
+          <Drag drag="0.006141311,0,0,0,0.001674138,0" area="0.00858101,0,0,0,0.004290505,0" />
+          <Config symmetryId="aecb649d-4d58-4517-91ab-8bde8ffbf29a" />
+          <Fuselage bottomScale="0.01464926,0.01464926" offset="4.227016E-07,0.2109606,6.370213E-07" topScale="0.01047181,0.01047181" symmetryId="9968ec41-12a8-4d07-a76e-bf3ba20f4821" />
+        </Part>
+        <Part id="16" partType="Strut1" position="0.2869051,-0.1997457,-0.1743137" rotation="318.5309,269.9977,350.0299" materials="0,0,0,0,0" symmetryId="b4a2ffb6-0617-4e88-8f07-7fc94918667d">
+          <Drag drag="0.00800053,0.01212278,0,0.002493597,0.004240029,0.007445289" area="0.00858101,0.01287151,0,0.004362287,0.006435758,0.01287151" />
+          <Config symmetryId="d8c8672b-c50b-446a-94b5-eecb3709e51a" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.578478E-07,0.3027433,-1.117539E-07" topScale="0.01367489,0.01367489" symmetryId="d846d9d3-60b3-43e8-85ae-4cd457067539" />
+        </Part>
+        <Part id="20" partType="Strut1" position="0.3490548,-0.2074919,-0.01087689" rotation="328.1513,273.5378,202.8515" materials="0,0,0,0,0" symmetryId="e1e9519f-d7ba-40be-a614-8f5ed09f365b">
+          <Drag drag="0.01223215,0.01150024,0,0.003221148,0,0.005535593" area="0.01501677,0.01501677,0,0.006543433,0,0.006435758" />
+          <Config symmetryId="1fa42010-94b7-4233-b352-c50f7db47d59" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.513405E-07,0.2870028,-1.37835E-07" topScale="0.01367489,0.01367489" symmetryId="757b9d5e-bae7-4df3-9251-337f74143986" />
+        </Part>
+        <Part id="24" partType="Strut1" position="0.5254934,0.1399136,-0.1400387" rotation="339.7641,284.7922,359.8624" materials="0,0,0,0,0" symmetryId="ec7c2c83-8d73-44e6-8d9c-7050bbc36de8">
+          <Drag drag="0.006099247,0.005973056,0,0.001330824,0,0.002372397" area="0.006435758,0.006435758,0,0.003079261,0,0.006435758" />
+          <Config symmetryId="2f5bbb97-6c1d-4588-bff0-f3c22710fbfe" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.388673E-07,0.1431457,-9.499246E-08" topScale="0.01367489,0.01367489" symmetryId="0760caf7-3426-438d-bd4b-335b26f3a765" />
+        </Part>
+        <Part id="28" partType="Strut1" position="0.3372371,0.2652764,-0.09020066" rotation="89.73239,256.0476,331.3024" materials="0,0,0,0,0" symmetryId="be9acefb-ac09-4819-945b-2634b7ba2eba">
+          <Drag drag="0.01314914,0.01184516,0,0.002908191,0,0.0009758796" area="0.01501677,0.01501677,0,0.003464169,0,0.004290505" />
+          <Config symmetryId="f779be9b-b4b7-4d47-8b12-34c5e3478dfa" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.332944E-08,0.2531537,4.768334E-07" topScale="0.01367489,0.01367489" symmetryId="110f9a58-1816-48e6-946c-69b8dc06cd82" />
+        </Part>
+        <Part id="30" partType="Strut1" position="0.1815536,0.2657785,0.09308124" rotation="359.7365,244.4551,270.054" materials="0,0,0,0,0" symmetryId="a4fe0363-77ea-4523-9cc3-ec92d278efc4">
+          <Drag drag="0.001674138,0,0,0,0,0.006141311" area="0.004290505,0,0,0,0,0.00858101" />
+          <Config symmetryId="1b31bbf5-ed83-463c-8c8b-1e664633cab8" />
+          <Fuselage bottomScale="0.01464926,0.01464926" offset="4.227016E-07,0.2109606,6.370213E-07" topScale="0.01047181,0.01047181" symmetryId="eedd6f94-e3c9-42ba-96a6-6a2bfa7fe069" />
+        </Part>
+        <Part id="17" partType="Strut1" position="-0.1743197,-0.1997457,-0.2868959" rotation="318.5309,-0.002283375,350.03" materials="0,0,0,0,0" symmetryId="950b7d2d-72f4-4728-a822-2c88c190cce2">
+          <Drag drag="0.004282092,0.007487352,0,0.003208066,0.01208913,0.007966879" area="0.006435758,0.01287151,0,0.005517012,0.01287151,0.00858101" />
+          <Config symmetryId="951d18f1-517a-4b7f-9d9e-5e358937089e" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.578478E-07,0.3027433,-1.117539E-07" topScale="0.01367489,0.01367489" symmetryId="875849ca-3ed2-46ab-89d3-7cf31cb67993" />
+        </Part>
+        <Part id="21" partType="Strut1" position="-0.01087725,-0.2074895,-0.3490435" rotation="328.1514,3.537761,202.8515" materials="0,0,0,0,0" symmetryId="10156476-61ca-43a9-8238-ea7ce4da39c3">
+          <Drag drag="0,0.005544006,0,0.003222154,0.01139087,0.01209754" area="0,0.006435758,0,0.006543433,0.01501677,0.01501677" />
+          <Config symmetryId="c671cee6-f55b-4580-a614-830870d13b27" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="5.513405E-07,0.2870028,-1.37835E-07" topScale="0.01367489,0.01367489" symmetryId="9310cd30-b985-4963-ac41-1b1ef58e7dfb" />
+        </Part>
+        <Part id="25" partType="Strut1" position="-0.1400433,0.1399136,-0.5254759" rotation="339.7641,14.79226,359.8624" materials="0,0,0,0,0" symmetryId="02f000a5-133e-408d-bd54-d6b2ce4e789b">
+          <Drag drag="0.0005384163,0.001733028,0,0.001330825,0.005939405,0.006116073" area="0.002145252,0.004290505,0,0.003079261,0.006435758,0.006435758" />
+          <Config symmetryId="4a7dafa6-af31-4bfe-8ab8-fb6570a0b1d5" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.388673E-07,0.1431457,-9.499246E-08" topScale="0.01367489,0.01367489" symmetryId="8fe5ed3b-484a-4752-a024-c90689f8a85d" />
+        </Part>
+        <Part id="29" partType="Strut1" position="-0.09020412,0.2652764,-0.3372256" rotation="89.74131,346.0515,331.3072" materials="0,0,0,0,0" symmetryId="570e7c4b-097a-4665-be4c-d5a7f659d7a2">
+          <Drag drag="0,0.002557478,0,0.002909701,0.01186198,0.01314072" area="0,0.004290505,0,0.003464169,0.01501677,0.01501677" />
+          <Config symmetryId="fcdf7a75-15b1-470f-94b2-41c498f0bed2" />
+          <Fuselage bottomScale="0.01624988,0.01624988" offset="6.332944E-08,0.2531537,4.768334E-07" topScale="0.01367489,0.01367489" symmetryId="c1e7f323-b698-47d6-96c9-43b7cb5da42f" />
+        </Part>
+        <Part id="33" partType="Strut1" position="0.09308434,0.2657785,-0.1815473" rotation="359.7365,334.4551,270.054" materials="0,0,0,0,0" symmetryId="388a3ba2-e8bc-4ea0-8b05-c300e38f1d38">
+          <Drag drag="0,0.007840688,0,0,0,0.0008412756" area="0,0.01072626,0,0,0,0.002145252" />
+          <Config symmetryId="0a09a805-9f2d-4cba-bd79-8caac0ef686b" />
+          <Fuselage bottomScale="0.01464926,0.01464926" offset="4.227016E-07,0.2109606,6.370213E-07" topScale="0.01047181,0.01047181" symmetryId="572ffc4c-b0e9-499d-8602-3d175f138eb8" />
+        </Part>
+      </Parts>
+      <Connections>
+        <Connection partA="13" partB="12" attachPointsA="1,3,5" attachPointsB="2,0,4" symmetryId="8fead082-b028-4912-b96b-b795334dc28a" />
+        <Connection partA="12" partB="11" attachPointsA="1,3,5" attachPointsB="2,0,4" symmetryId="02f1741d-a9a0-4810-a8f8-2fb403ba55dc" />
+        <Connection partA="11" partB="4" attachPointsA="1,5" attachPointsB="2,4" symmetryId="f8351aa7-1190-4ed6-98da-7d0cd307adcd" />
+        <Connection partA="4" partB="1" attachPointsA="1,5" attachPointsB="2,4" symmetryId="6345f58e-6284-407b-a6a1-44d4e0d77ab1" />
+        <Connection partA="2" partB="1" attachPointsA="0" attachPointsB="1" symmetryId="fc26c13c-0020-4079-a9c2-b9b8bda2a791" />
+        <Connection partA="7" partB="1" attachPointsA="1" attachPointsB="5" symmetryId="5b60a1fb-65c9-49ea-868b-48e9868e0968" />
+        <Connection partA="14" partB="1" attachPointsA="1" attachPointsB="0" symmetryId="e4209ebc-3b5e-4db6-ae9f-ea4b2423dc83" />
+        <Connection partA="15" partB="1" attachPointsA="1" attachPointsB="0" symmetryId="e4209ebc-3b5e-4db6-ae9f-ea4b2423dc83" />
+        <Connection partA="16" partB="1" attachPointsA="1" attachPointsB="0" symmetryId="e4209ebc-3b5e-4db6-ae9f-ea4b2423dc83" />
+        <Connection partA="17" partB="1" attachPointsA="1" attachPointsB="0" symmetryId="e4209ebc-3b5e-4db6-ae9f-ea4b2423dc83" />
+        <Connection partA="8" partB="7" attachPointsA="1" attachPointsB="0" symmetryId="1095e4b3-53df-46de-85a9-3ab482fe5734" />
+        <Connection partA="5" partB="8" attachPointsA="1" attachPointsB="0" symmetryId="7ae825b5-c4b1-45b1-8d25-31844aefc3c4" />
+        <Connection partA="6" partB="5" attachPointsA="1" attachPointsB="0" symmetryId="2120a91c-4f0e-4d64-a316-707423c0955d" />
+        <Connection partA="9" partB="6" attachPointsA="1" attachPointsB="0" symmetryId="dbf8e0f6-4cf3-40a2-8c2a-25c6a297e878" />
+        <Connection partA="10" partB="9" attachPointsA="1" attachPointsB="0" symmetryId="76d9a346-b228-41ee-bcda-66495def6e9d" />
+        <Connection partA="18" partB="14" attachPointsA="1" attachPointsB="2" symmetryId="b6ae3412-d38d-4950-9794-194d329eb6c5" />
+        <Connection partA="22" partB="14" attachPointsA="1" attachPointsB="0" symmetryId="2c5b57b6-9d9b-44a5-b82a-40ed86a7521d" />
+        <Connection partA="26" partB="22" attachPointsA="1" attachPointsB="2" symmetryId="e48c4615-2fee-40de-b492-e864deabb0ac" />
+        <Connection partA="31" partB="26" attachPointsA="1" attachPointsB="0" symmetryId="04d128f5-a4f3-4de3-8f8a-4b04a01884aa" />
+        <Connection partA="19" partB="15" attachPointsA="1" attachPointsB="2" symmetryId="b6ae3412-d38d-4950-9794-194d329eb6c5" />
+        <Connection partA="23" partB="15" attachPointsA="1" attachPointsB="0" symmetryId="2c5b57b6-9d9b-44a5-b82a-40ed86a7521d" />
+        <Connection partA="27" partB="23" attachPointsA="1" attachPointsB="2" symmetryId="e48c4615-2fee-40de-b492-e864deabb0ac" />
+        <Connection partA="32" partB="27" attachPointsA="1" attachPointsB="0" symmetryId="04d128f5-a4f3-4de3-8f8a-4b04a01884aa" />
+        <Connection partA="20" partB="16" attachPointsA="1" attachPointsB="2" symmetryId="b6ae3412-d38d-4950-9794-194d329eb6c5" />
+        <Connection partA="24" partB="16" attachPointsA="1" attachPointsB="0" symmetryId="2c5b57b6-9d9b-44a5-b82a-40ed86a7521d" />
+        <Connection partA="28" partB="24" attachPointsA="1" attachPointsB="2" symmetryId="e48c4615-2fee-40de-b492-e864deabb0ac" />
+        <Connection partA="30" partB="28" attachPointsA="1" attachPointsB="0" symmetryId="04d128f5-a4f3-4de3-8f8a-4b04a01884aa" />
+        <Connection partA="21" partB="17" attachPointsA="1" attachPointsB="2" symmetryId="b6ae3412-d38d-4950-9794-194d329eb6c5" />
+        <Connection partA="25" partB="17" attachPointsA="1" attachPointsB="0" symmetryId="2c5b57b6-9d9b-44a5-b82a-40ed86a7521d" />
+        <Connection partA="29" partB="25" attachPointsA="1" attachPointsB="2" symmetryId="e48c4615-2fee-40de-b492-e864deabb0ac" />
+        <Connection partA="33" partB="29" attachPointsA="1" attachPointsB="0" symmetryId="04d128f5-a4f3-4de3-8f8a-4b04a01884aa" />
+      </Connections>
+      <Collisions />
+      <Bodies />
+    </Assembly>
+  </DesignerPart>
+</DesignerParts>
