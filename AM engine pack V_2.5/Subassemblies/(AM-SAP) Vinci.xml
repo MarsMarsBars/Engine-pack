@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DesignerParts>
+  <DesignerPart name="(AM-SAP) Vinci" category="Propulsion" description="Engine by Aerojet Mariodyne, Fuel: HydroLOX, Thrust: Vac=180kn, Isp: Vac=465s" order="1000">
+    <Assembly xmlVersion="8">
+      <Parts>
+        <Part name="Vinci" id="3" partType="Fuselage1" position="-0.0001410395,1.110558,-0.03864002" rotation="-1.366038E-05,180,-2.693812E-08" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.02740601,0.02743514,0,0,0.02743514,0.027406" area="0.03343795,0.03343795,0,0,0.03343795,0.03343795" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.1376553,0.1376553" offset="-1.572333E-07,0.05413134,8.451742E-08" topScale="0.1376553,0.1376553" />
+          <FuelTank capacity="3.544682" fuel="3.544682" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="2" partType="Inlet1" position="0.0001178831,0.9635749,-0.03889799" rotation="359.8405,89.99997,0.1594506" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.03664333,0.03549959,0,0,0.03126703,0.03661419" area="0.04458394,0.04272627,0,0,0.03901095,0.04458394" />
+          <Config massScale="0" fuelLine="true" partCollisionHandling="Never" />
+          <Fuselage bottomScale="0.1385886,0.1385886" offset="0,0.09285021,0" topScale="0.1385886,0.1385886" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="4" partType="HingeRotator1" position="-0.0001415163,1.056427,-0.03864002" rotation="-3.756605E-05,180,180" materials="0,1,2,3,4">
+          <Drag drag="0,0.001857664,0,0,0.005572991,0" area="0,0.001857664,0,0,0.005572991,0" />
+          <Config massScale="0" fuelLine="true" partCollisionHandling="Never" partScale="0.75,0.75,0.75" />
+          <JointRotator baseMode="None" range="10" speed="0.1" />
+          <InputController input="Yaw" invert="true" inputId="Rotator" />
+        </Part>
+        <Part name="Vinci" id="5" partType="HingeRotator1" position="-0.0001419932,0.9628198,-0.03863907" rotation="-2.897803E-05,270,179.9999" materials="0,1,2,3,4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config massScale="0" fuelLine="true" partCollisionHandling="Never" partScale="0.75,0.75,0.75" />
+          <JointRotator baseMode="None" range="10" speed="0.1" />
+          <InputController input="Pitch" inputId="Rotator" />
+        </Part>
+        <Part name="Vinci" id="6" partType="Fuselage1" position="-0.00014247,0.8153381,-0.03863955" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.02634969,0.02637883,0,0,0.02636425,0.0263424" area="0.03343795,0.03343795,0,0,0.03343795,0.03343795" />
+          <Config massScale="0" partCollisionHandling="Never" />
+          <Fuselage bottomScale="0.1259287,0.1259287" offset="3.503166E-16,0.05387022,4.152886E-09" topScale="0.1372693,0.1372693" />
+          <FuelTank capacity="3.22600627" fuel="3.22600627" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="7" partType="Fuselage1" position="-0.0001439005,0.444253,-0.03863811" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2">
+          <Drag drag="0.04727208,0.0305094,0,0,0.03119418,0.03691287" area="0.06316058,0.0464416,0,0,0.04458394,0.0520146" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.09941263,0.09941263" offset="1.742488E-16,0.3171421,2.851248E-09" topScale="0.09941263,0.09941263" />
+          <FuelTank capacity="10.831275" fuel="10.831275" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="8" partType="Fuselage1" position="-0.0001415163,0.06973338,-0.03863907" rotation="-2.781544E-05,270,-1.815609E-05" materials="5,5,0,0,4" texture="Default">
+          <Drag drag="0.003365649,0,0,0,0,0.008865791" area="0.005572991,0,0,0,0,0.01300365" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.239594,0.239594" offset="7.356832E-16,0.05729108,8.692454E-09" topScale="0.1523865,0.1523865" />
+          <FuelTank capacity="7.73046255" fuel="7.73046255" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="9" partType="Fuselage1" position="-0.0001405627,-0.1149116,-0.03863764" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.06823817,0.03891623,0,0,0.05410537,0.08163521" area="0.09288315,0.05572993,0,0,0.06873357,0.09659848" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.2354985,0.2354985" offset="-2.748368E-17,0.1273152,3.009504E-11" topScale="0.2354985,0.2354985" />
+          <FuelTank capacity="24.4005222" fuel="24.4005222" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="10" partType="Fuselage1" position="-0.0001386553,-0.2769575,-0.0386405" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.03172598,0.02308603,0,0,0.03319754,0.03003587" area="0.04086861,0.03158029,0,0,0.04086861,0.03715328" />
+          <Config massScale="0" partScale="0.65,0.65,0.65" />
+          <Fuselage bottomScale="0.4069963,0.4069963" offset="6.98785E-21,0.05337387,4.352012E-14" topScale="0.4069963,0.4069963" />
+          <FuelTank capacity="30.5528851" fuel="30.5528851" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="11" partType="Fuselage1" position="-0.0001405627,-0.4062648,-0.03864002" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.06278905,0.05386497,0,0,0.06141947,0.06262878" area="0.1058868,0.09659848,0,0,0.1003138,0.1058868" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.3999336,0.3999336" offset="-2.005731E-17,0.0945852,2.648551E-11" topScale="0.2644692,0.2644692" />
+          <FuelTank capacity="36.57172" fuel="36.57172" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="12" partType="Fuselage1" position="-0.0001400858,-0.5282617,-0.03864002" rotation="-2.781544E-05,270,-1.815609E-05" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.02738415,0.02558476,0,0.2218018,0.0264881,0.02739144" area="0.03529562,0.03343795,0,0.2218018,0.03343795,0.03529562" />
+          <Config massScale="0" partScale="0.65,0.65,0.65" />
+          <Fuselage bottomScale="0.6292089,0.6292089" offset="6.98785E-21,0.05337387,4.352012E-14" topScale="0.6292089,0.6292089" />
+          <FuelTank capacity="73.0232239" fuel="73.0232239" fuelType="LOX/LH2" />
+        </Part>
+        <Part name="Vinci" id="13" partType="RocketEngine1" position="-0.00014247,0.5098112,-0.03863478" rotation="5.428902E-05,270,-2.298576E-05" activationStage="0" materials="2,2,2,2,2" nozzleExtensionTexture="RocketEngine_Extension4">
+          <Drag drag="0.2247337,0.1983839,0,0.2726143,0.2581788,0.2762382" area="0.3269492,0.3083725,0,0.718117,0.3696756,0.3901099" />
+          <Config massScale="0.7" partScale="0.4,0.25,0.4" />
+          <FuelSource fuelTankPartIds="3,6,7,8,9,10,11,12" fuelType="LOX/LH2" totalCapacity="189.880783" totalFuel="189.880783" />
+          <RocketEngine chamberPressure="55.8" engineSubTypeId="Staged2" gimbalRange="0" mass="8.019939" nozzleSize="1.61" nozzleThroatSize="0.0195" nozzleTypeId="Cone" price="783536" size="1.26" />
+        </Part>
+        <Part name="Vinci" id="14" partType="Inlet1" position="-0.000139609,-0.9210896,-0.03863621" rotation="-2.781544E-05,270,-1.815609E-05" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="0.4655233,0.4825191,0,0.1614415,0.4918803,0.4636293" area="0.6223165,0.6576116,0,0.2039445,0.655754,0.6334623" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.6133319,0.6133319" offset="-5.167486E-15,0.3580406,-2.540148E-12" topScale="0.4003574,0.4003574" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="15" partType="Inlet1" position="-0.0001391321,-1.246221,-0.03863859" rotation="-2.781544E-05,270,-1.815609E-05" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="0.01277781,0,0,0.01032967,0,0.01071617" area="0.01671897,0,0,0.01032967,0,0.01300365" />
+          <Config massScale="0" partScale="0.5,0.5,0.5" />
+          <Fuselage bottomScale="1.26398,1.26398" offset="-1.024465E-15,0.06731147,-2.417888E-11" topScale="1.26398,1.26398" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="16" partType="Piston1" position="-0.00014247,0.0646863,-0.03863573" rotation="5.31264E-05,270,180" activationGroup="1" materials="2,2,2,2,2">
+          <Drag drag="0.003001402,0.007153827,0,0,0.002826563,0.0009324743" area="0.007430654,0.01300365,0,0,0.007430654,0.003715327" />
+          <Config massScale="0" inertiaTensorUserScale="50" partCollisionHandling="Never" partScale="1.4,1.4,1.4" />
+          <Piston range="1.35" speed="0.3" />
+          <InputController input="AG 1" inputId="Piston" />
+        </Part>
+        <Part name="Vinci" id="17" partType="Fuselage1" position="-0.00014247,-0.2496543,-0.03863716" rotation="5.428902E-05,270,-2.298576E-05" materials="0,0,0,0,4">
+          <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.05,0.05" offset="-9.547781E-15,0.05175494,-1.98951E-13" topScale="0.05,0.05" />
+          <FuelTank capacity="0.44713062" fuel="0.44713062" />
+        </Part>
+        <Part name="Vinci" id="18" partType="Inlet1" position="0.001117699,0.2175734,-0.0399003" rotation="359.8405,180,359.8405" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="1.038638,1.031178,0.04658857,0.1779239,1.060995,1.015253" area="1.367229,1.357941,0.2235728,0.8557364,1.393236,1.339365" />
+          <Config massScale="0" inertiaTensorUserScale="50" partCollisionHandling="Never" />
+          <Fuselage bottomScale="0.8505951,0.8505951" offset="0,0.4578014,0" topScale="0.6558086,0.6558086" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="19" partType="Inlet1" position="0.004393101,-0.9604335,-0.04317427" rotation="359.8405,180,359.8405" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="2.117761,1.972519,0.2218957,0.5473331,1.942302,2.155108" area="2.756792,2.571016,1.314566,1.730228,2.535718,2.801378" />
+          <Config massScale="0" partCollisionHandling="Never" />
+          <Fuselage bottomScale="1.09745,1.097471" offset="-5.820684E-10,0.719844,-5.820593E-10" topScale="0.8505951,0.8505951" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="20" partType="Inlet1" position="0.005628109,-1.404233,-0.04440928" rotation="359.8405,180,359.8405" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="0.01537854,0.06233008,0.08299647,0,0.06248307,0.01179434" area="0.02600729,0.09288315,0.173469,0,0.09288315,0.02229197" />
+          <Config massScale="0" partCollisionHandling="Never" partScale="0.6,0.6,0.6" />
+          <Fuselage bottomScale="1.798197,1.798197" offset="-6.374538E-08,0.05233829,-1.250278E-08" topScale="1.741134,1.741134" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="21" partType="Inlet1" position="0.005829334,-1.476501,-0.0446105" rotation="359.8405,180,359.8405" materials="3,3,3,3,3" texture="Default">
+          <Drag drag="0.01934884,0.1399804,0.005017271,0,0.1397837,0.0147666" area="0.03158029,0.1857664,0.005017271,0,0.1857664,0.02600729" />
+          <Config massScale="0" partCollisionHandling="Never" partScale="0.6,0.6,0.6" />
+          <Fuselage bottomScale="1.768837,1.768837" offset="-2.666307E-07,0.0680735,-1.626109E-08" topScale="1.799419,1.799419" />
+          <Inlet />
+        </Part>
+        <Part name="Vinci" id="22" partType="Strut1" position="0.4300666,-0.2241483,0.08657265" rotation="338.0839,255.2434,344.0378" materials="2,2,2,2,2" symmetryId="de9a47c3-20b5-45dd-a937-bab1cb3133f2" texture="Default">
+          <Drag drag="0.01550967,0.01391426,0,0,0,0.01589577" area="0.0204343,0.01857664,0,0,0,0.02414963" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02295352,0.02295352" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02051438,0.02051438" />
+        </Part>
+        <Part name="Vinci" id="23" partType="Strut1" position="0.501399,0.2087491,0.1873927" rotation="-2.889024E-05,245.0178,-1.436179E-05" materials="2,2,2,2,2" symmetryId="2f3551ac-2db6-4f5e-a250-487b8ee42365" texture="Default">
+          <Drag drag="0.016464,0.01463548,0,0,0.003686188,0.01475932" area="0.01671897,0.01486131,0,0,0.003715327,0.01486131" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02852419,0.02852419" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.015294E-07,0.2003217,1.849494E-08" topScale="0.02806026,0.02806026" />
+        </Part>
+        <Part name="Vinci" id="24" partType="Strut1" position="0.5139708,0.4666312,0.1927376" rotation="-2.889024E-05,245.0178,-1.436179E-05" materials="2,2,2,2,2" symmetryId="4ba31c85-9f1f-406c-9763-c7425e1a4d9c" texture="Default">
+          <Drag drag="0.01139367,0.008304849,0,0,0.002571589,0.00831942" area="0.01671897,0.009288318,0,0,0.003715327,0.01114598" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.03424614,0.05357835" cornerRadiuses="0.497537,0.497537,0.497537,0.497537,0.502463,0.502463,0.502463,0.502463" offset="-0.0003859886,0.05751026,0.002752807" topScale="0.03083602,0.04807888" />
+        </Part>
+        <Part name="Vinci" id="25" partType="Strut1" position="0.5548196,-0.4304261,0.2122784" rotation="-4.766117E-05,65.01794,180" materials="2,2,2,2,2" symmetryId="50ad872c-6a8f-474b-81fa-5f8a8cf44c25" texture="Default">
+          <Drag drag="0.06099693,0.053559,0,0.0002951335,0,0" area="0.07059123,0.06316058,0,0.0002951335,0,0" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01128936,0.01128936" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-8.647687E-08,0.8467112,-2.784672E-07" topScale="0.01428321,0.01428321" />
+        </Part>
+        <Part name="Vinci" id="26" partType="Strut1" position="0.03057874,0.4985471,0.2413659" rotation="270,96.35982,0" materials="2,2,2,2,2" symmetryId="14a74ab0-9b90-44b7-be76-c3564e93a5e0" texture="Default">
+          <Drag drag="0.02777754,0,0,0,0,0.000160269" area="0.03715328,0,0,0,0,0.001857664" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02041719,0.02041719" cornerRadiuses="1,1,1,1,1,1,1,1" offset="9.238611E-07,0.4610532,-2.980196E-07" topScale="0.02153537,0.02153537" />
+        </Part>
+        <Part name="Vinci" id="27" partType="Strut1" position="-0.2446142,0.6070821,0.1354756" rotation="68.93604,125.6433,359.4227" materials="2,2,2,2,2" symmetryId="15a8abb9-6067-4a8b-8296-d3bab8c94bcd" texture="Default">
+          <Drag drag="0.007044552,0.004356404,0,0,0.003074251,0.001828524" area="0.009288318,0.005572991,0,0,0.005572991,0.003715327" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01071147,0.01071147" cornerRadiuses="1,1,1,1,1,1,1,1" offset="1.676381E-06,0.289352,7.748604E-07" topScale="0.01057904,0.01057904" />
+        </Part>
+        <Part name="Vinci" id="28" partType="Strut1" position="-0.1068105,-0.2241454,-0.4738126" rotation="338.0841,15.24329,344.0379" materials="2,2,2,2,2" symmetryId="de9a47c3-20b5-45dd-a937-bab1cb3133f2" texture="Default">
+          <Drag drag="0,0.0127341,0,0,0.01485403,0.004378258" area="0,0.01671897,0,0,0.0204343,0.007430654" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02295352,0.02295352" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02051438,0.02051438" />
+        </Part>
+        <Part name="Vinci" id="29" partType="Strut1" position="-0.05516665,0.2087481,-0.5860023" rotation="-8.212923E-05,5.017978,2.015408E-06" materials="2,2,2,2,2" symmetryId="2f3551ac-2db6-4f5e-a250-487b8ee42365" texture="Default">
+          <Drag drag="0,0,0,0,0.01473018,0.01663155" area="0,0,0,0,0.01486131,0.01671897" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02852419,0.02852419" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.015294E-07,0.2003217,1.849494E-08" topScale="0.02806026,0.02806026" />
+        </Part>
+        <Part name="Vinci" id="30" partType="Strut1" position="-0.05682224,0.4666312,-0.5995641" rotation="-8.212923E-05,5.017978,2.015408E-06" materials="2,2,2,2,2" symmetryId="4ba31c85-9f1f-406c-9763-c7425e1a4d9c" texture="Default">
+          <Drag drag="0,0.005529281,0,0,0.00902606,0.01090558" area="0,0.005572991,0,0,0.009288318,0.01114598" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.03424614,0.05357835" cornerRadiuses="0.497537,0.497537,0.497537,0.497537,0.502463,0.502463,0.502463,0.502463" offset="-0.0003859886,0.05751026,0.002752807" topScale="0.03083602,0.04807888" />
+        </Part>
+        <Part name="Vinci" id="31" partType="Strut1" position="-0.06032175,-0.4304266,-0.6447101" rotation="2.126374E-05,185.0179,179.9999" materials="2,2,2,2,2" symmetryId="50ad872c-6a8f-474b-81fa-5f8a8cf44c25" texture="Default">
+          <Drag drag="0,0.06398376,0,0.0002951335,8.013451E-05,0" area="0,0.07059123,0,0.0002951335,0.001857664,0" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01128936,0.01128936" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-8.647687E-08,0.8467112,-2.784672E-07" topScale="0.01428321,0.01428321" />
+        </Part>
+        <Part name="Vinci" id="32" partType="Strut1" position="0.2269857,0.4985502,-0.205245" rotation="270,216.3696,0" materials="2,2,2,2,2" symmetryId="14a74ab0-9b90-44b7-be76-c3564e93a5e0" texture="Default">
+          <Drag drag="0,0.01078173,0,0,0,0.01915215" area="0,0.02414963,0,0,0,0.03158029" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02041719,0.02041719" cornerRadiuses="1,1,1,1,1,1,1,1" offset="9.238611E-07,0.4610532,-2.980196E-07" topScale="0.02153537,0.02153537" />
+        </Part>
+        <Part name="Vinci" id="33" partType="Strut1" position="0.2728828,0.6070812,0.08602715" rotation="68.93617,245.6431,359.4224" materials="2,2,2,2,2" symmetryId="15a8abb9-6067-4a8b-8296-d3bab8c94bcd" texture="Default">
+          <Drag drag="0.005288878,0.005281593,0,0,0.001777529,0.00252788" area="0.007430654,0.007430654,0,0,0.003715327,0.005572991" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01071147,0.01071147" cornerRadiuses="1,1,1,1,1,1,1,1" offset="1.676381E-06,0.289352,7.748604E-07" topScale="0.01057904,0.01057904" />
+        </Part>
+        <Part name="Vinci" id="34" partType="Strut1" position="-0.3236791,-0.2241483,0.271327" rotation="338.0839,135.2435,344.0377" materials="2,2,2,2,2" symmetryId="de9a47c3-20b5-45dd-a937-bab1cb3133f2" texture="Default">
+          <Drag drag="0.01797199,0.01143738,0,0,0.01401625,0.01193276" area="0.0204343,0.01300365,0,0,0.01857664,0.01486131" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02295352,0.02295352" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02051438,0.02051438" />
+        </Part>
+        <Part name="Vinci" id="35" partType="Strut1" position="-0.4466565,0.2087471,0.2826972" rotation="-4.052327E-05,125.0181,7.498416E-05" materials="2,2,2,2,2" symmetryId="2f3551ac-2db6-4f5e-a250-487b8ee42365" texture="Default">
+          <Drag drag="0.0146719,0.01465005,0,0,0.01407453,0" area="0.01486131,0.01486131,0,0,0.01486131,0" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02852419,0.02852419" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.015294E-07,0.2003217,1.849494E-08" topScale="0.02806026,0.02806026" />
+        </Part>
+        <Part name="Vinci" id="36" partType="Strut1" position="-0.4575717,0.4666312,0.2909102" rotation="-4.052327E-05,125.0181,7.498416E-05" materials="2,2,2,2,2" symmetryId="4ba31c85-9f1f-406c-9763-c7425e1a4d9c" texture="Default">
+          <Drag drag="0.007736623,0.003008687,0,0,0.007926032,0.001063604" area="0.009288318,0.003715327,0,0,0.01114598,0.001857664" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.03424614,0.05357835" cornerRadiuses="0.497537,0.497537,0.497537,0.497537,0.502463,0.502463,0.502463,0.502463" offset="-0.0003859886,0.05751026,0.002752807" topScale="0.03083602,0.04807888" />
+        </Part>
+        <Part name="Vinci" id="37" partType="Strut1" position="-0.4949229,-0.4304276,0.3165154" rotation="9.263182E-05,305.018,179.9999" materials="2,2,2,2,2" symmetryId="50ad872c-6a8f-474b-81fa-5f8a8cf44c25" texture="Default">
+          <Drag drag="0.04698796,0.03697844,0,7.378338E-05,0.07017601,0.01290166" area="0.06873357,0.05387226,0,7.378338E-05,0.07059123,0.01300365" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01128936,0.01128936" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-8.647687E-08,0.8467112,-2.784672E-07" topScale="0.01428321,0.01428321" />
+        </Part>
+        <Part name="Vinci" id="38" partType="Strut1" position="-0.2579957,0.498549,-0.1520343" rotation="270,336.3635,0" materials="2,2,2,2,2" symmetryId="14a74ab0-9b90-44b7-be76-c3564e93a5e0" texture="Default">
+          <Drag drag="0,0.005012049,0,0,0.0244046,0" area="0,0.01671897,0,0,0.03529562,0" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02041719,0.02041719" cornerRadiuses="1,1,1,1,1,1,1,1" offset="9.238611E-07,0.4610532,-2.980196E-07" topScale="0.02153537,0.02153537" />
+        </Part>
+        <Part name="Vinci" id="39" partType="Strut1" position="-0.0286893,0.607079,-0.3374133" rotation="68.936,5.643373,359.4228" materials="2,2,2,2,2" symmetryId="15a8abb9-6067-4a8b-8296-d3bab8c94bcd" texture="Default">
+          <Drag drag="0,0.001129168,0,0,0.00831942,0.006490896" area="0,0.003715327,0,0,0.009288318,0.007430654" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.01071147,0.01071147" cornerRadiuses="1,1,1,1,1,1,1,1" offset="1.676381E-06,0.289352,7.748604E-07" topScale="0.01057904,0.01057904" />
+        </Part>
+        <Part name="Vinci" id="40" partType="Strut1" position="0.3864149,-0.2270722,0.1862988" rotation="335.9797,249.4201,7.511904" materials="2,2,2,2,2" symmetryId="4d12f13b-92fe-4c62-9c95-a3ef495069ec" texture="Default">
+          <Drag drag="0.01316391,0.01514542,0,0,0,0.01655142" area="0.01671897,0.01857664,0,0,0,0.01857664" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02317533,0.02317533" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02003111,0.02003111" />
+        </Part>
+        <Part name="Vinci" id="41" partType="Strut1" position="0.001378641,-0.2270694,-0.4858704" rotation="335.9796,9.420053,7.511989" materials="2,2,2,2,2" symmetryId="4d12f13b-92fe-4c62-9c95-a3ef495069ec" texture="Default">
+          <Drag drag="0,0.01371029,0,0,0.008654527,0.01669712" area="0,0.0204343,0,0,0.01300365,0.02229197" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02317533,0.02317533" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02003111,0.02003111" />
+        </Part>
+        <Part name="Vinci" id="42" partType="Strut1" position="-0.3882177,-0.2270756,0.1836648" rotation="335.9794,129.4202,7.511912" materials="2,2,2,2,2" symmetryId="4d12f13b-92fe-4c62-9c95-a3ef495069ec" texture="Default">
+          <Drag drag="0.01296722,0.01605604,0,0,0.0190793,0.00330737" area="0.01857664,0.02229197,0,0,0.02414963,0.003715327" />
+          <Config massScale="0" />
+          <Fuselage bottomScale="0.02317533,0.02317533" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.011659E-07,0.2965613,1.564592E-07" topScale="0.02003111,0.02003111" />
+        </Part>
+        <Part name="Vinci" id="43" partType="Strut1" position="-0.00393571,-0.3574867,0.2605968" rotation="305.1577,179.3903,1.223265" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.00407229,0,0,0,0,0.001850379" area="0.005572991,0,0,0,0,0.001857664" />
+          <Config massScale="0" partScale="0.45,0.45,0.45" />
+          <Fuselage bottomScale="0.1063921,0.1063921" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.221016E-07,0.06617299,8.753734E-08" topScale="0.1063921,0.1063921" />
+        </Part>
+        <Part name="Vinci" id="44" partType="Strut1" position="-0.003315821,-0.3274822,0.2973108" rotation="315.156,179.6899,0.99336" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.001311292,0,0,0,0,0.003190811" area="0.001857664,0,0,0,0,0.005572991" />
+          <Config massScale="0" partScale="0.45,0.45,0.45" />
+          <Fuselage bottomScale="0.07319631,0.07319631" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.221016E-07,0.06617299,8.753734E-08" topScale="0.07319631,0.07319631" />
+        </Part>
+        <Part name="Vinci" id="45" partType="Strut1" position="-0.002630129,-0.2882433,0.3273754" rotation="330.1541,179.9863,0.8120794" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0,0,0,0,0,0.001420566" area="0,0,0,0,0,0.001857664" />
+          <Config massScale="0" partScale="0.45,0.45,0.45" />
+          <Fuselage bottomScale="0.07319631,0.07319631" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.221016E-07,0.06617299,8.753734E-08" topScale="0.07319631,0.07319631" />
+        </Part>
+        <Part name="Vinci" id="46" partType="Strut1" position="-0.001896754,-0.2409744,0.3495007" rotation="340.1534,180.1361,0.7488244" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.002294761,0,0,0,0.001529841,0.003380219" area="0.005572991,0,0,0,0.001857664,0.003715327" />
+          <Config massScale="0" partScale="0.45,0.45,0.45" />
+          <Fuselage bottomScale="0.07319631,0.07319631" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-2.221016E-07,0.06617299,8.753734E-08" topScale="0.07319631,0.07319631" />
+        </Part>
+        <Part name="Vinci" id="47" partType="Strut1" position="-0.0002178103,-0.1141753,0.3672028" rotation="355.1522,180.3307,0.7068828" materials="2,2,2,2,2" texture="Default">
+          <Drag drag="0.008829366,0,0,0,0.009601573,0.007831328" area="0.01486131,0,0,0,0.01114598,0.009288318" />
+          <Config massScale="0" partScale="0.45,0.45,0.45" />
+          <Fuselage bottomScale="0.07319631,0.07319631" cornerRadiuses="1,1,1,1,1,1,1,1" offset="-6.808948E-07,0.2374904,-1.262444E-07" topScale="0.07319631,0.07319631" />
+        </Part>
+      </Parts>
+      <Connections>
+        <Connection partA="2" partB="3" attachPointsA="1" attachPointsB="5" />
+        <Connection partA="4" partB="3" attachPointsA="1" attachPointsB="1" />
+        <Connection partA="5" partB="4" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="6" partB="5" attachPointsA="2" attachPointsB="0" />
+        <Connection partA="6" partB="7" attachPointsA="1,5" attachPointsB="2,4" />
+        <Connection partA="8" partB="7" attachPointsA="2,4" attachPointsB="1,5" />
+        <Connection partA="9" partB="8" attachPointsA="2,4" attachPointsB="1,5" />
+        <Connection partA="10" partB="9" attachPointsA="2,4" attachPointsB="1,5" />
+        <Connection partA="10" partB="11" attachPointsA="1,5" attachPointsB="2,4" />
+        <Connection partA="12" partB="11" attachPointsA="2,4" attachPointsB="1,5" />
+        <Connection partA="22" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="665d76b1-44fd-4d50-a9e8-fbabef24ef91" />
+        <Connection partA="28" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="665d76b1-44fd-4d50-a9e8-fbabef24ef91" />
+        <Connection partA="34" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="665d76b1-44fd-4d50-a9e8-fbabef24ef91" />
+        <Connection partA="40" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="5730ee9c-5bf4-4526-bddc-c5e414d8bf1b" />
+        <Connection partA="41" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="5730ee9c-5bf4-4526-bddc-c5e414d8bf1b" />
+        <Connection partA="42" partB="11" attachPointsA="1" attachPointsB="0" symmetryId="5730ee9c-5bf4-4526-bddc-c5e414d8bf1b" />
+        <Connection partA="43" partB="11" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="13" partB="12" attachPointsA="0" attachPointsB="1" />
+        <Connection partA="14" partB="12" attachPointsA="1" attachPointsB="5" />
+        <Connection partA="16" partB="12" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="15" partB="14" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="17" partB="16" attachPointsA="2" attachPointsB="0" />
+        <Connection partA="18" partB="17" attachPointsA="1" attachPointsB="5" />
+        <Connection partA="19" partB="18" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="20" partB="19" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="21" partB="20" attachPointsA="1" attachPointsB="0" />
+        <Connection partA="23" partB="22" attachPointsA="1" attachPointsB="2" symmetryId="07831ffc-8426-4b5b-b63b-19ef3cfae661" />
+        <Connection partA="24" partB="23" attachPointsA="1" attachPointsB="2" symmetryId="3395e998-1468-41ff-81f5-fedc4b58e384" />
+        <Connection partA="25" partB="24" attachPointsA="1" attachPointsB="2" symmetryId="56d7fd3f-2d8c-4dab-a111-6894cb0ab132" />
+        <Connection partA="26" partB="24" attachPointsA="1" attachPointsB="0" symmetryId="6f71b9bf-70f2-4295-a3eb-6ac2b9f3ed7d" />
+        <Connection partA="27" partB="26" attachPointsA="1" attachPointsB="2" symmetryId="068085b7-774f-4460-86c6-dd81a6095d83" />
+        <Connection partA="29" partB="28" attachPointsA="1" attachPointsB="2" symmetryId="07831ffc-8426-4b5b-b63b-19ef3cfae661" />
+        <Connection partA="30" partB="29" attachPointsA="1" attachPointsB="2" symmetryId="3395e998-1468-41ff-81f5-fedc4b58e384" />
+        <Connection partA="31" partB="30" attachPointsA="1" attachPointsB="2" symmetryId="56d7fd3f-2d8c-4dab-a111-6894cb0ab132" />
+        <Connection partA="32" partB="30" attachPointsA="1" attachPointsB="0" symmetryId="6f71b9bf-70f2-4295-a3eb-6ac2b9f3ed7d" />
+        <Connection partA="33" partB="32" attachPointsA="1" attachPointsB="2" symmetryId="068085b7-774f-4460-86c6-dd81a6095d83" />
+        <Connection partA="35" partB="34" attachPointsA="1" attachPointsB="2" symmetryId="07831ffc-8426-4b5b-b63b-19ef3cfae661" />
+        <Connection partA="36" partB="35" attachPointsA="1" attachPointsB="2" symmetryId="3395e998-1468-41ff-81f5-fedc4b58e384" />
+        <Connection partA="37" partB="36" attachPointsA="1" attachPointsB="2" symmetryId="56d7fd3f-2d8c-4dab-a111-6894cb0ab132" />
+        <Connection partA="38" partB="36" attachPointsA="1" attachPointsB="0" symmetryId="6f71b9bf-70f2-4295-a3eb-6ac2b9f3ed7d" />
+        <Connection partA="39" partB="38" attachPointsA="1" attachPointsB="2" symmetryId="068085b7-774f-4460-86c6-dd81a6095d83" />
+        <Connection partA="44" partB="43" attachPointsA="1" attachPointsB="2" />
+        <Connection partA="45" partB="44" attachPointsA="1" attachPointsB="2" />
+        <Connection partA="46" partB="45" attachPointsA="1" attachPointsB="2" />
+        <Connection partA="47" partB="46" attachPointsA="1" attachPointsB="2" />
+      </Connections>
+      <Collisions />
+      <Bodies />
+    </Assembly>
+  </DesignerPart>
+</DesignerParts>
